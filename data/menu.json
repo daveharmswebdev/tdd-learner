@@ -1,0 +1,42 @@
+{
+	"menu": {
+		"Meat": {
+			"Ham": "3.00",
+			"Turkey": "3.00",
+			"Roast Beef": "3.00",
+			"Pastrami": "3.25",
+			"Salami": "3.50"
+		},
+		"Cheese": {
+			"Swiss": "1.50",
+			"Provolone": "1.50",
+			"Cheddar": "1.50",
+			"Muenster": "1.50",
+			"Pepper Colby Jack": "1.50"
+		},
+		"Bread": {
+			"White": "1.00",
+			"Wheat": "1.00",
+			"Rye": "1.00",
+			"Baguette": "1.25",
+			"Focaccia": "1.50"
+		},
+		"Toppings": {
+			"Lettuce": "0.20",
+			"Tomato": "0.20",
+			"Onion": "0.20",
+			"Olive Tapenade": "0.50",
+			"Jalepeno": "0.20"
+		},
+		"Condiments": {
+			"Mustard": "0.00",
+			"Mayo": "0.00",
+			"Sriracha": "0.00",
+			"Oil": "0.00",
+			"Vinegar": "0.00",
+			"Salt": "0.00",
+			"Pepper": "0.00",
+			"Honey Mustard": "0.00"
+		}
+	}
+}
