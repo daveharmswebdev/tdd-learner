@@ -2,34 +2,48 @@
 
 var model = {};
 var $ = require('jQuery');
-var view = require('../src/view');
 var dataLoad = [];
 
 model.load = function() {
 
-	var fetchJSON = function(url) {
-		return new Promise((resolve, reject) => {
-			$.ajax(url)
-				.done((json) => resolve(json))
-				.fail((xhr, status, err) => reject(err));
-		});
-	};
+	return new Promise(function(loadResolve, loadReject) {
 
-	var paths = [
-		'../data/categories.json',
-		'../data/types.json',
-		'../data/products.json'
-	];
+		// var fetch = function() {
 
-	var itemPromises = paths.map(fetchJSON);
+			var fetchJSON = function(url) {
+				return new Promise((fetchResolve, fetchReject) => {
+					$.ajax(url)
+						.done((json) => fetchResolve(json))
+						.fail((xhr, status, err) => fetchReject(err));
+				});
+			};
 
-	Promise.all(itemPromises)
-		.then(function(results) {
-			results.forEach((result) => {
-				if (Object.keys(result)[0] === 'categories') view.loadCatSelect(result);
-				dataLoad.push(result);
-			});
-		});
+			var paths = [
+				'../data/categories.json',
+				'../data/types.json',
+				'../data/products.json'
+			];
+
+			var itemPromises = paths.map(fetchJSON);
+
+			Promise.all(itemPromises)
+				.then(function(results) {
+					results.forEach((result) => {
+						dataLoad.push(result);
+					});
+					loadResolve(dataLoad);
+				});
+		// };
+
+
+	});
+
+}
+
+
+model.getDataLoad = function() {
+	return dataLoad;
 };
 
 module.exports = model;
+
