@@ -1,10 +1,114 @@
 {
-    "products": [{
-        "fairy_sparklers": {
-            "id": 0,
-            "type": 0,
-            "name": "Fairy Sparklers",
-            "description": "Multi-colored sparklers that are safe for any age."
-        }
-    }]
+    "products": [
+    	{
+	        "fairy_sparklers": {
+	            "id": 0,
+	            "type": 0,
+	            "name": "rerum voluptates",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, illum!"
+	        },
+	        "fairy_sparklers": {
+	            "id": 1,
+	            "type": 0,
+	            "name": "ptatibus quis id",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, voluptatum!"
+	        },
+	        "fairy_sparklers": {
+	            "id": 2,
+	            "type": 0,
+	            "name": "fugit, molestias",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, quae."
+	        },
+	        "fairy_sparklers": {
+	            "id": 3,
+	            "type": 1,
+	            "name": "animi distinctio",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, voluptatibus!"
+	        },
+	        "fairy_sparklers": {
+	            "id": 4,
+	            "type": 1,
+	            "name": "nderit veritatis",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque, nobis."
+	        },
+	        "fairy_sparklers": {
+	            "id": 5,
+	            "type": 1,
+	            "name": "re maiores porro",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam, dolores."
+	        },
+	        "fairy_sparklers": {
+	            "id": 6,
+	            "type": 2,
+	            "name": "hic, odio magnam",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem, tempore."
+	        },
+	        "fairy_sparklers": {
+	            "id": 7,
+	            "type": 2,
+	            "name": "loribus nesciunt",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos, incidunt."
+	        },
+	        "fairy_sparklers": {
+	            "id": 8,
+	            "type": 2,
+	            "name": " fuga sed libero",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, voluptatum."
+	        },
+	        "fairy_sparklers": {
+	            "id": 9,
+	            "type": 3,
+	            "name": "o at accusantium",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, dicta."
+	        },
+	        "fairy_sparklers": {
+	            "id": 10,
+	            "type": 3,
+	            "name": "rupti laboriosam",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, officiis?"
+	        },
+	        "fairy_sparklers": {
+	            "id": 11,
+	            "type": 3,
+	            "name": "um ducimus magni",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iusto, libero?"
+	        },
+	        "fairy_sparklers": {
+	            "id": 12,
+	            "type": 4,
+	            "name": "minima similique",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis, nostrum."
+	        },
+	        "fairy_sparklers": {
+	            "id": 13,
+	            "type": 4,
+	            "name": "t, hic similique",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nisi, fugiat!"
+	        },
+	        "fairy_sparklers": {
+	            "id": 14,
+	            "type": 4,
+	            "name": "dit sed corporis",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore, asperiores."
+	        },
+	        "fairy_sparklers": {
+	            "id": 15,
+	            "type": 5,
+	            "name": "m molestias nemo",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, pariatur."
+	        },
+	        "fairy_sparklers": {
+	            "id": 16,
+	            "type": 5,
+	            "name": "cere praesentium",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab, quibusdam."
+	        },
+	        "fairy_sparklers": {
+	            "id": 17,
+	            "type": 5,
+	            "name": "onsectetur neque",
+	            "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non, at?"
+	        }
+	    }
+	]
 }

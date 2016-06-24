@@ -14,12 +14,24 @@
         },
         {
             "id": 2,
+            "category": 0,
+            "name": "special",
+            "description": "Fireworks intended for special use requiring a special license"
+        },
+        {
+            "id": 3,
             "category": 1,
             "name": "small",
             "description": "small explosives like grenades meant to make small explosions"
         },
         {
-            "id": 3,
+            "id": 4,
+            "category": 1,
+            "name": "medium",
+            "description": "small explosives like grenades meant to make small explosions"
+        },
+        {
+            "id": 5,
             "category": 1,
             "name": "large",
             "description": "big explosions the type that take down buildings, dynamite"

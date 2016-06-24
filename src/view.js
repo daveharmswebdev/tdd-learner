@@ -2,6 +2,7 @@
 
 var $ = require('jQuery');
 var catOptions = require('../views/catOptions.jade');
+var typeOptions = require('../views/typeOptions.jade');
 var model = require('../src/model');
 
 var view = {};
@@ -13,7 +14,9 @@ view.loadCatSelect = function(data) {
 };
 
 view.loadType = (data) => {
-	console.log('loadType: ', val, ' - data : ', data);
+	console.log(data);
+	$('#acmeTypeSelect').empty();
+	$('#acmeTypeSelect').append(typeOptions({data: data}));
 };
 
 module.exports = view;
